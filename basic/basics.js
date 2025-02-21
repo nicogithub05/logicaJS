@@ -75,3 +75,31 @@ if(numeroParImpar2 % 2 === 0) {
 } else {
     console.log('El número es impar')
 }
+
+/* 3. Calcular el área de un triángulo */ 
+/*-----------------------------------------*/
+
+/*
+ escribir base
+ leer base 
+ escribir altura 
+ leer altura
+ area = base * altura / 2
+ escribir "el area del triángulo es:", area
+*/
+
+let base = 5; 
+let altura = 2; 
+
+let calcularArea = base * altura / 2;
+
+console.log("El area del triángulo es:" + calcularArea);
+
+/* opción 2 */
+
+let base1 = parseFloat(prompt('Ingrese la base del triángulo')); 
+let altura1 = parseFloat(prompt('Ingrese la Altura del triángulo'));; 
+
+let calcularArea2 = base * altura / 2;
+
+console.log("El area del triángulo es:" + calcularArea2);
