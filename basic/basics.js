@@ -42,7 +42,36 @@ let suma = nume1 + nume2;
 console.log(suma);
 
 
+/* 2. Determinar número par o impar */ 
+/*--------------------------------------*/
 
-/* 2. Suma de 2 números */ 
-/*-------------------------*/
+/* 
+ escribir numero1 
+ leer numero1
+ si numero1 % 2 = 0 entonces
+  escribir "El número", numero1, "es par"
+ sino 
+  escribir "El número", numero2, "es impar"
+ FinSi
+*/ 
 
+/* Opcion 1 */
+
+let numeroParImpar = parseFloat(prompt('Ingrese un número'));
+
+if(numeroParImpar % 2 === 0) {
+    console.log('El número es par');
+} else {
+    console.log('El número es impar')
+}
+
+
+/* opcion 2 */
+
+let numeroParImpar2 = 15;
+
+if(numeroParImpar2 % 2 === 0) {
+    console.log('El número es par');
+} else {
+    console.log('El número es impar')
+}
