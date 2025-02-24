@@ -103,3 +103,45 @@ let altura1 = parseFloat(prompt('Ingrese la Altura del triángulo'));;
 let calcularArea2 = base * altura / 2;
 
 console.log("El area del triángulo es:" + calcularArea2);
+
+
+/* 3. Calcular si un número es positivo, negativo o cero */ 
+/*-----------------------------------------------------------*/
+
+/* 
+Escribir 'Ingrese un número'
+leer número
+si número > 0
+    escribir 'El número ingresado es positivo'
+sino si numero < 0 
+    escribir "El número ingresado es negativo"
+sino
+    escribir "El número ingresado es 0"
+FinSi
+*/ 
+
+
+/* Opcion 1 */
+
+let numero = parseFloat(prompt('Ingrese un número'));
+
+if(numero > 0) {
+    console.log('El número ingresado es positivo')
+} else if (numero < 0) {
+    console.log('El número ingresado es negativo');
+} else {
+    console.log('El número ingresado es 0')
+}
+
+
+/* opcion 2 */
+
+let numeroDos = 15;
+
+if(numeroDos > 0) {
+    console.log('El número ingresado es positivo')
+} else if (numeroDos < 0) {
+    console.log('El número ingresado es negativo');
+} else {
+    console.log('El número ingresado es 0')
+}
