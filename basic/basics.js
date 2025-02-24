@@ -145,3 +145,47 @@ if(numeroDos > 0) {
 } else {
     console.log('El número ingresado es 0')
 }
+
+/* 5. Calcular si un número es mayor o menor que otro*/ 
+/*-------------------------------------------------------*/
+
+/* 
+Escribir numeroUno ="Ingrese el primer número"
+Leer numeroUno
+Escribir numeroDos ="Ingrese el segundo número"
+Leer numeroDos
+si numeroUno > numeroDos
+    escribir "El número", numeroUno, "es mayor que", numeroDos
+sino si numeroUno < numeroDos
+    escribir "El número", numeroDos, "es mayor que", numeroUno
+sino 
+    escribir "Los números ingresados son iguales"
+FinSi
+*/ 
+
+
+/* Opcion 1 */
+
+let numeroUno = parseFloat(prompt('Ingrese el primer número:'));
+let numeroDoss = parseFloat(prompt('Ingrese el segundo número:'));
+
+if(numeroUno > numeroDos) {
+    console.log(`El número ${numeroUno} es mayor que ${numeroDoss}`);
+} else if(numeroUno < numeroDoss) {
+    console.log(`El número ${numeroUno} es menor que ${numeroDoss}`);
+ } else {
+    console.log('Los números ingresados son iguales');
+ }
+
+/* opcion 2 */
+
+let numeroUnoo = 10;
+let numeroDosss = 5;
+
+if(numeroUnoo > numeroDosss) {
+    console.log(`El número ${numeroUnoo} es mayor que ${numeroDosss}`);
+} else if(numeroUnoo < numeroDosss) {
+    console.log(`El número ${numeroUnoo} es menor que ${numeroDosss}`);
+ } else {
+    console.log('Los números ingresados son iguales');
+ }
