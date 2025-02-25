@@ -214,3 +214,39 @@ if(año % 4 === 0 && año % 100 !== 0 || (año % 400 === 0)) {
 }
 
 
+ /* 7. Tabla de multiplicar del 1 */ 
+/*------------------------------------------*/
+
+/* 
+Inicio
+    Escribir "Ingrese un número:"
+    Leer numero
+    Para i desde 1 hasta 10 Hacer
+        resultado ← numero * i
+        Escribir numero, " x ", i, " = ", resultado
+    FinPara
+Fin
+
+*/
+
+
+/* 
+Opcion 1
+*/
+
+let numeroTres = parseFloat(prompt('Ingrese un numero:'))
+
+for(let i = 0; i <= 10; i++) {
+    let resultado = numeroTres * i;
+    console.log(`${numeroTres} x ${i} = ${resultado}`);
+}
+
+/* Opción 2 */
+
+
+let numeroTress = 12
+
+for(let i = 0; i <= 10; i++) {
+    let resultado = numeroTress * i;
+    console.log(`${numeroTress} x ${i} = ${resultado}`);
+}
