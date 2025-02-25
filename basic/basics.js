@@ -189,3 +189,28 @@ if(numeroUnoo > numeroDosss) {
  } else {
     console.log('Los números ingresados son iguales');
  }
+
+ /* 6. Determinar si un año es bisiesto */ 
+/*------------------------------------------*/
+ 
+
+/* 
+Inicio
+    Escribir "Ingrese un año:"
+    Leer año
+    Si (año MOD 4 == 0 y año MOD 100 != 0) o (año MOD 400 == 0) Entonces
+        Escribir "El año es bisiesto"
+    Sino
+        Escribir "El año no es bisiesto"
+    FinSi
+Fin
+*/
+
+let año = parseFloat(prompt('Ingrese un año'));
+if(año % 4 === 0 && año % 100 !== 0 || (año % 400 === 0)) {
+    console.log('El año es bisiesto');
+} else {
+    console.log('El año no es bisiesto');
+}
+
+
