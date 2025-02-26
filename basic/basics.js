@@ -250,3 +250,36 @@ for(let i = 0; i <= 10; i++) {
     let resultado = numeroTress * i;
     console.log(`${numeroTress} x ${i} = ${resultado}`);
 }
+
+
+ /* 8. Suma de los primeros números naturales */ 
+/*------------------------------------------*/
+
+/* 
+Inicio
+    
+    Escribir "Ingrese un número N:"
+    Leer N
+    suma ← 0
+    Para i desde 1 hasta N Hacer
+        suma ← suma + i
+    FinPara
+    Escribir "La suma de los primeros", N, "números naturales es:", suma
+Fin
+
+
+*/
+
+let N = parseFloat(prompt('Ingrese un número: '));
+let sumar = 0;
+for(let i = 0; i <= 10; i++) {
+    sumar = sumar + i;
+    console.log(`La suma de los primeros ${N} números naturales es: ${sumar}`);
+}
+
+let N2 = 23;
+let sumarr = 0;
+for(let i = 0; i <= 10; i++) {
+    sumarr = sumarr + i;
+    console.log(`La suma de los primeros ${N2} números naturales es: ${sumarr}`);
+}
